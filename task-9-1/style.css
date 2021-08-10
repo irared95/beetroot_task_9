@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Miso Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/Miso/miso-bold-webfont.woff2) format('woff2'), url(/fonts/Miso/miso-bold-webfont.woff) format('woff'), url(/fonts/Miso/miso-bold-webfont.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/Lato/Lato-Light.woff2)format('woff2'), url(/fonts/Lato/Lato-Light.woff) format('woff'), url(/fonts/Lato/Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Miso Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Miso/miso-regular-webfont.woff2)format('woff2'), url(/fonts/Miso/miso-regular-webfont.woff) format('woff'), url(/fonts/Miso/miso-regular-webfont.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #fdde7e;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.coffee {
+    padding: 60px 0;
+}
+
+.coffee-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-height: 550px;
+    align-items: center;
+}
+
+.coffee-item {
+    width: 32%;
+    padding: 44px 10px 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.coffee-item:hover {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coffee-price {
+    font-size: 70px;
+    line-height: 72px;
+    font-family: 'Miso Bold', sans-serif;
+    color: #02995b;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.coffee-image {
+    padding-left: 10px;
+    margin: 0 auto 30px;
+    max-width: 140px;
+    width: 100%;
+}
+
+.coffee-image img {
+    display: block;
+    width: 100%;
+}
+
+.coffee-title {
+    font-size: 56px;
+    line-height: 58px;
+    font-family: 'Miso Regular', sans-serif;
+    color: #333333;
+    margin-bottom: 24px;
+}
+
+.coffee-text {
+    margin: 0 auto;
+    max-width: 152px;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Lato Light', sans-serif;
+}
